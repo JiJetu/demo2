@@ -63,3 +63,76 @@ body{
 
 /* main section */
 
+/* Service section style */
+.service-container{
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png"),linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.925));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(214, 203, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.service-left-part{
+    width: 50%;
+}
+.all-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.box{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 8px gray; */
+}
+.icon{
+    width: 70px;
+}
+.service-left-part-more-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.service-left-part-more-info-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 2px solid red;
+    padding-right: 40px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    gap: 5px;
+}
+
+/* Appointment section */
+.appo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -50px;
+}
+.appo-phone{
+    display: flex;
+    align-items: center;
+}
