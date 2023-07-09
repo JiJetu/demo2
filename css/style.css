@@ -136,3 +136,39 @@ body{
     display: flex;
     align-items: center;
 }
+/* Blog section style */
+.blog-info{
+    text-align: center;
+    margin: 50px;
+}
+.blog-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.blog-description{
+    font-size: 18px;
+}
+.cards{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 20px; */
+    
+}
+.card{
+    width: 350px;
+    height: 400px;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+    margin-left: 5.5%;
+    /* margin-right: 30px; */
+}
+.card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 20px; */
+}
